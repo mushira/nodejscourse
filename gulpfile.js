@@ -7,3 +7,7 @@ gulp.task('style', function(){
     return gulp.src(jsFiles)
         .pipe(jshint());
 });
+
+gulp.task('inject', function(){
+    
+});
